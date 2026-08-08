@@ -1,0 +1,26 @@
+{
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^1.2.0",
+    "@eslint/markdown": "^8.0.1",
+    "@fulldecent/nice-checkers-plugin": "^1.3.7",
+    "@stylistic/stylelint-config": "^4.0.0",
+    "@stylistic/stylelint-plugin": "^5.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "html-validate": "^11.6.2",
+    "html-validate-markdown": "^6.0.0",
+    "stylelint": "^17.4.0",
+    "stylelint-config-alphabetical-order": "^2.0.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^3.0.0",
+    "stylelint-high-performance-animation": "^2.0.0",
+    "stylelint-media-use-custom-media": "^4.1.0",
+    "stylelint-plugin-logical-css": "^2.0.2",
+    "stylelint-use-nesting": "^6.0.2",
+    "stylelint-value-no-unknown-custom-properties": "^6.1.1"
+  }
+}

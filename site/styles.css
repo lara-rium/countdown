@@ -1,0 +1,48 @@
+:root {
+  --accent: #ffd801;
+  --background: color-mix(in oklch, var(--accent), white 50%);
+  --gradient-direction: to right;
+  --progress: 0%;
+  --text: black;
+}
+
+@media (orientation: portrait) {
+  :root {
+    --gradient-direction: to top;
+  }
+}
+
+html {
+  background-color: var(--accent);
+}
+
+body {
+  background: linear-gradient(
+    var(--gradient-direction),
+    var(--accent) 0%,
+    var(--accent) var(--progress),
+    var(--background) var(--progress),
+    var(--background) 100%
+  );
+  color: var(--text);
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  block-size: 100vb;
+  display: flex;
+  inline-size: 100vi;
+  justify-content: center;
+  font-family: "recursive-mono-csl-st-xblk", monospace;
+  text-align: center;
+  font-size: 10vi;
+  overflow: hidden;
+}
+
+.countdown {
+  line-height: 1.2;
+}
+
+.percentage {
+  line-height: 2.2;
+  font-size: 7vi;
+}

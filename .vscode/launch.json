@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "Open editor browser",
+      "request": "launch",
+      "type": "editor-browser",
+      "url": "file:///Users/lara/Projects/countdown/site/index.html?start=2026-08-05&end=2026-09-01"
+    }
+  ],
+  "version": "0.2.0"
+}

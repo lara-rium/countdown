@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "command": "python3 -m http.server 5500",
+      "label": "Run server",
+      "options": {
+        "cwd": "/Users/lara/Projects/countdown/site"
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    }
+  ],
+  "version": "2.0.0"
+}
