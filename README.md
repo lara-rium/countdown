@@ -8,10 +8,6 @@ tiny static page that counts down to a date and shows completion progress betwee
 
 used completely with query parameters:
 
-```text
-https://countdown.lara.lv/?start=2026-01-01&end=2026-12-31
-```
-
 | parameter | description                                          | required                                                          |
 | --------- | ---------------------------------------------------- | ----------------------------------------------------------------- |
 | `start`   | start date, used for the progress (see format below) | yes                                                               |
