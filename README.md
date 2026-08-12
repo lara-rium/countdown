@@ -2,7 +2,7 @@
 
 tiny static page that counts down to a date and shows completion progress between a start date and an end date
 
-use at [countdown.lara.lv](https://countdown.lara.lv/)
+[example for january 1 2026 to january 1 2030](https://countdown.lara.lv/?start=2026-01-01&end=2030-01-01)
 
 ## usage
 
