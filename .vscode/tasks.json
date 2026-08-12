@@ -4,7 +4,7 @@
       "command": "python3 -m http.server 5500",
       "label": "Run server",
       "options": {
-        "cwd": "/Users/lara/Projects/countdown/site"
+        "cwd": "${workspaceFolder}/site"
       },
       "problemMatcher": [],
       "type": "shell"
